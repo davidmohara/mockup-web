@@ -1,0 +1,28 @@
+{
+  "name": "mockup",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidmohara/mockup-base.git"
+  },
+  "dependencies": {
+    "express": "latest",
+    "underscore": "latest",
+    "bower": "latest",
+    "forever": "latest",
+    "grunt": "latest",
+    "grunt-cli": "latest",
+    "grunt-env": "latest"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "latest",
+    "grunt-nodemon": "latest",
+    "grunt-concurrent": "latest",
+    "grunt-sass": "latest"
+  }
+}
