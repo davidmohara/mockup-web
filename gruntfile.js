@@ -3,12 +3,12 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         watch: {
-            // jade: {
-            //     files: ['app/views/**'],
-            //     options: {
-            //         livereload: true,
-            //     },
-            // },
+            jade: {
+                files: ['app/views/**'],
+                options: {
+                    livereload: true,
+                },
+            },
             // js: {
             //     files: ['public/js/**', 'app/**/*.js'],
             //     tasks: ['jshint', 'uglify'],
@@ -49,7 +49,7 @@ module.exports = function(grunt) {
                 options: {
                     args: [],
                     ignoredFiles: ['node_modules/**', '.DS_Store'],
-                    watchedFolders: ['app'],
+                    watchedFolders: ['app', 'config'],
                     debug: true,
                     delayTime: 1,
                     env: {

@@ -13,11 +13,15 @@
   "dependencies": {
     "express": "latest",
     "underscore": "latest",
+    "jade": "latest",
     "bower": "latest",
     "forever": "latest",
     "grunt": "latest",
     "grunt-cli": "latest",
-    "grunt-env": "latest"
+    "grunt-env": "latest",
+    "morgan": "~1.5.0",
+    "body-parser": "~1.9.3",
+    "method-override": "~2.3.0"
   },
   "devDependencies": {
     "grunt-contrib-watch": "latest",
